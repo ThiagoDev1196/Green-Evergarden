@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.visible {
+    opacity: 0;
+    display: visible;
+}
