@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/header'
-
+import HeroImg from './components/hero-img'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     </header>
 
     <main>
-      {/* Componente del hero img */}
+      <HeroImg/>
       {/* Componente about us  */}
       {/* Componente productos destacados  */}
       {/* Componente de beneficios */}

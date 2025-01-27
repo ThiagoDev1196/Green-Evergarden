@@ -10,7 +10,7 @@ function Header() {
 
     return (
 
-        <div className="nav__container flex flex-col bg-emerald-700 text-amber-100 p-4 fixed w-full">
+        <div className="nav__container flex flex-col bg-emerald-700 text-amber-100 p-4 fixed  w-full z-30">
           
         <div className="nav__image flex flex-row justify-center md:text-xl">
           <img src="./public/nav-img.webp" className="w-4 mr-2"/>
