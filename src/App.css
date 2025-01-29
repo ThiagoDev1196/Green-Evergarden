@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+/* Styles for hero img */
 .hero__container {
     background: url(/public/heroimg1.jpg);
     width: 100%;
