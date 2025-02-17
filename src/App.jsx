@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header'
 import HeroImg from './components/hero-img'
 import AboutUs from './components/about-us'
+import FeaturedProducts from './components/featured-product'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <main>
       <HeroImg/>
       <AboutUs />
-      {/* Componente productos destacados  */}
+      <FeaturedProducts />
       {/* Componente de beneficios */}
       {/* Componente de incentivo */}
 
