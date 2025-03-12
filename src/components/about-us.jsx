@@ -16,7 +16,7 @@ function AboutUs () {
           </div>
 
           <div className="about__img flex">
-            <img className="w-[400px] md:w-[500px] lg:w-[750px] m-auto" src="/public/aboutus2.webp"></img>
+            <img className="w-[400px] md:w-[500px] lg:w-[750px] m-auto" src="/aboutus2.webp"></img>
           </div>
             <a href="" className="lg:hidden font-semibold text-white text-center bg-emerald-500 p-2">Take a look at our products below</a>
 
