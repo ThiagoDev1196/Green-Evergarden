@@ -5,6 +5,7 @@ import AboutUs from './components/about-us'
 import FeaturedProducts from './components/featured-product'
 import Customers from './components/customers'
 import Incentive from './components/incentive'
+import Subscription from './components/subscription'
 
 function App() {
 
@@ -20,8 +21,9 @@ function App() {
       <AboutUs />
       <FeaturedProducts />
       <Customers /> 
-      {/* Componente de beneficios */}
       <Incentive/>
+      <Subscription />
+
 
     </main>
 
