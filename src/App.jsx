@@ -6,6 +6,7 @@ import FeaturedProducts from './components/featured-product'
 import Customers from './components/customers'
 import Incentive from './components/incentive'
 import Subscription from './components/subscription'
+import Footer from './components/footer'
 
 function App() {
 
@@ -23,12 +24,10 @@ function App() {
       <Customers /> 
       <Incentive/>
       <Subscription />
-
-
     </main>
 
     <footer>
-      {/* Componente del footer  */}
+      <Footer />
     </footer>
     
     </>
