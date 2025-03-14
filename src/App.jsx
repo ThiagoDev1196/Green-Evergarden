@@ -4,6 +4,7 @@ import HeroImg from './components/hero-img'
 import AboutUs from './components/about-us'
 import FeaturedProducts from './components/featured-product'
 import Customers from './components/customers'
+import Incentive from './components/incentive'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
       <FeaturedProducts />
       <Customers /> 
       {/* Componente de beneficios */}
-      {/* Componente de incentivo */}
+      <Incentive/>
 
     </main>
 
