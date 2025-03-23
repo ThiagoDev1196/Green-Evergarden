@@ -82,7 +82,7 @@ function FeaturedProducts() {
 
         <div className="fullcatalog__text p-4 space-y-3">
           <p className="text-xl md:text-2xl">We have more products in our catalog</p>
-          <p className="text-md md:text-lg">If you did not found a product here, take a look at our <a href="" className="underline font-semibold hover:text-emerald-300">full catalog</a></p> 
+          <p className="text-md md:text-lg">Didn't find what you were looking for? Explore our <a href="" className="underline font-semibold hover:text-emerald-300">full catalog</a> for more options!</p> 
         </div>
 
         <div className="fullcatalog__img lg:mr-30">
