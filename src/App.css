@@ -4,6 +4,10 @@ body {
     background-color: #ffffff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Styles for hero img */
 .hero__container {
     background: url(/public/hero-img3.jpg);
@@ -24,7 +28,7 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 

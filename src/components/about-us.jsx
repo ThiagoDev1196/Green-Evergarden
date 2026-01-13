@@ -12,16 +12,12 @@ function AboutUs () {
            We're passionate about making sustainability accessible for everyone. Whether you're just starting your journey or are already an eco-enthusiast, we're here to support you with <b>products you can trust and love</b>. <br/>
            Together, let's cultivate a world where green choices are second nature. 🌿                
             </p>
-            <p className="hidden md:block font-semibold text-white text-center mx-5 bg-emerald-500 p-2">Take a look at our products below</p>
         </div>
         
 
         <div className="about__img w-[70%] flex md:flex-[2]">
             <img src="/about-img.jpg" className="md:h-[450px] md:w-full md:object-cover"/>
-        </div>
-
-        <p  className="md:hidden font-semibold text-white text-center bg-emerald-500 my-10 mb-25 p-2">Take a look at our products below</p>
-  
+        </div>  
 
   </div>
     )
