@@ -1,7 +1,7 @@
 const productData = [
     {
         id: 1,
-        picture: 'product1.webp',
+        picture: 'p1.png',
         name: 'Solid shampoo and conditioner',
         category: 'Personal care and beauty',
         price: '$15'
@@ -9,7 +9,7 @@ const productData = [
 
     {
         id: 2,
-        picture: 'soap.webp',
+        picture: 'p2.png',
         name: 'Biodegradable handmade soap',
         category: 'Personal care and beauty',
         price: '$8'
@@ -17,7 +17,7 @@ const productData = [
 
     {
         id: 3,
-        picture: 'organicseeds.jpg',
+        picture: 'p3.png',
         name: 'Organic seeds',
         category: 'Gardering',
         price: '$5'
@@ -25,7 +25,7 @@ const productData = [
 
     {
         id: 4,
-        picture: 'fertilizer.jpg',
+        picture: 'p4.png',
         name: 'Natural Fertilizer',
         category: 'Gardering',
         price: '$10'
@@ -33,7 +33,7 @@ const productData = [
 
     {
         id: 5,
-        picture: 'filter.webp',
+        picture: 'p5.png',
         name: 'Activated carbon water filter',
         category: 'Sustainable kitchen',
         price: '$20'
@@ -41,7 +41,7 @@ const productData = [
 
     {
         id: 6,
-        picture: 'skincare.jpg',
+        picture: 'p6.png',
         name: 'Natural moisturizing cream',
         category: 'Personal care and beauty',
         price: '$15'
@@ -49,7 +49,7 @@ const productData = [
 
     {
         id: 7,
-        picture: 'bamboo.jpg',
+        picture: 'p7.png',
         name: 'Bamboo toothbrushes',
         category: 'Personal care and beauty',
         price: '$5'
@@ -57,7 +57,7 @@ const productData = [
 
     {
         id: 8,
-        picture: 'detergent.jpg',
+        picture: 'p8.png',
         name: 'Ecological detergent',
         category: 'Sustainable home',
         price: '$18'
@@ -65,7 +65,7 @@ const productData = [
 
     {
         id: 9,
-        picture: 'organictea.webp',
+        picture: 'p9.png',
         name: 'Organic tea',
         category: 'Sustainable kitchen',
         price: '$5'
@@ -73,7 +73,7 @@ const productData = [
 
     {
         id: 10,
-        picture: 'deodorant.jpg',
+        picture: 'p10.png',
         name: 'Natural deodorant',
         category: 'Personal care and beauty',
         price: '$8'
@@ -81,7 +81,7 @@ const productData = [
 
     {
         id: 11,
-        picture: 'straws.jpg',
+        picture: 'p11.png',
         name: 'Bamboo straws',
         category: 'Sustainable kitchen',
         price: '$4'
@@ -89,7 +89,7 @@ const productData = [
 
     {
         id: 12,
-        picture: 'mask.jpg',
+        picture: 'p12.png',
         name: 'Natural clay face mask',
         category: 'Personal care and beauty',
         price: '$16'
