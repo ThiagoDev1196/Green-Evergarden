@@ -1,5 +1,3 @@
-import React from "react";
-
 function AboutUs () {
     return (
       <div id="about" className="about__container md:p-6 flex justify-center scroll-mt-10 md:scroll-mt-42  items-center flex-col md:flex-row  w-[100%] md:max-w-[1540px] mx-auto">
@@ -16,7 +14,7 @@ function AboutUs () {
         
 
         <div className="about__img w-[70%] flex md:flex-[2]">
-            <img src="/about-img.jpg" className="md:h-[450px] md:w-full md:object-cover"/>
+            <img src="./about-img.jpg" className="md:h-[450px] md:w-full md:object-cover"/>
         </div>  
 
   </div>

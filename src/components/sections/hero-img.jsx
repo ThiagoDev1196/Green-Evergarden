@@ -1,5 +1,3 @@
-import React from "react";
-
 function HeroImg() {
     return (
         <div id="home" className="hero__container flex flex-col w-full md:h-[720px] h-[600px]">

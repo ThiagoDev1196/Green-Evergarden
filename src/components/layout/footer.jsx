@@ -31,8 +31,8 @@ function Footer() {
                 <li><a href="">✉️ greenevergardenshop@gmail.com</a></li>
                 <li><a href="">📍 123 Greenway Avenue, Eco City, Earth 10010</a></li>
                 <li><a href="">📞 +12 3456 7890</a></li>
-                <li><a href=""><img className="w-6 invert-80" src="/instagram.png"/></a></li>
-                <li><a href=""><img className="w-6 invert-80" src="/x.png"/></a></li>
+                <li><a href=""><img className="w-6 invert-80" src="./instagram.png"/></a></li>
+                <li><a href=""><img className="w-6 invert-80" src="./x.png"/></a></li>
             </ul>
 
             </div>

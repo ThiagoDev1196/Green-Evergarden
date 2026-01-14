@@ -1,6 +1,5 @@
-import React from "react";
 import CustomerOpinion from "./customer-opinion";
-import CustomersData from "./customers-data";
+import CustomersData from "../data/customers-data";
 
 function Customers() {
 
