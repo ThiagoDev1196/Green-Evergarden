@@ -1,8 +1,37 @@
-# React + Vite
+# Green Evergarden 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Green Evergarden is a responsive eco-friendly landing page built with React and Tailwind CSS.  
+The project focuses on clean design, reusable components, and modern front-end practices.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://thiagodev1196.github.io/Green-Evergarden/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- GitHub Pages
+- GitHub Actions (CI/CD)
+
+## ✨ Features
+- Responsive design
+- Component-based architecture
+- Product filtering using React state
+- Clean and minimal UI inspired by eco-friendly brands
+
+## 📦 Installation
+Clone the repository and install dependencies:
+
+```
+npm install
+npm run dev
+```
+
+## 🧩 Build for production
+```
+npm run build
+```
+📌 Purpose
+This project was created as a portfolio piece to practice React, Tailwind CSS, and deployment using GitHub Pages.
+
+Made by Thiago :^)
