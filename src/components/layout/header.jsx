@@ -13,7 +13,7 @@ function Header() {
         <div className="nav__container flex flex-col bg-emerald-700  text-amber-100 p-4 fixed  w-full z-30">
           
         <div className="nav__image flex flex-row justify-center md:text-xl">
-          <img src="./nav-img.webp" className="w-4 mr-2"/>
+          <img src="./nav-img.webp" alt="Plant web logo" className="w-4 mr-2"/>
           <p>Green Evergarden</p>
         </div>
 
