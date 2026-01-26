@@ -1,6 +1,6 @@
 function Incentive() {
     return (
-        <div className="incentive__container p-6  flex justify-center items-center flex-row  w-[100%] md:max-w-[1470px] mx-auto md:bg-emerald-800">
+        <div className="incentive__container p-6  flex justify-center items-center flex-row  w-[97%] md:max-w-[1600px] mx-auto md:bg-emerald-800">
 
             <div className="incentive__img hidden md:flex flex-[1] lg:flex-[2]">
                 <img src="./incentive-img.jpg" alt="A hand holding a little plant" className="h-[450px] w-full object-cover"/>

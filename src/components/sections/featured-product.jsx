@@ -78,7 +78,7 @@ function FeaturedProducts() {
       </div>
 
 
-      <div className="fullcatalog bg-emerald-600 lg:mt-20 flex justify-between items-center p-5 space-y-4 flex-col rounded-lg lg:flex-row text-white max-w-[1470px] mx-auto">
+      <div className="fullcatalog bg-emerald-600 lg:mt-20 flex justify-between items-center p-5 space-y-4 flex-col rounded-lg lg:flex-row text-white max-w-[1600px] w-[100%] mx-auto">
 
         <div className="fullcatalog__text p-4 space-y-3">
           <p className="text-xl md:text-2xl">We have more products in our catalog</p>

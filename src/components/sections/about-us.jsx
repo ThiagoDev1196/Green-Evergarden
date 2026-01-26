@@ -1,6 +1,6 @@
 function AboutUs () {
     return (
-      <div id="about" className="about__container md:p-6 flex justify-center scroll-mt-10 md:scroll-mt-42  items-center flex-col md:flex-row  w-[100%] md:max-w-[1540px] mx-auto">
+      <div id="about" className="about__container md:p-6 flex justify-center scroll-mt-10 md:scroll-mt-42  items-center flex-col md:flex-row  w-[97%] md:max-w-[1600px] mx-auto">
 
         <div className="about__text flex-[3] md:border-4 md:border-y-0 md:border-r-0 md:pl-4 lg:max-w-[70%] border-l-emerald-600 bg-cover bg-center text-black p-4 md:p-10 md:bg-none">
             <p className="text-center md:text-start text-3xl font-bold p-6 z-10 relative">Who are we?</p>
