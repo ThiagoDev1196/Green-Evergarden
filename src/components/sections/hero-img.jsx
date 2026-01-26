@@ -1,15 +1,18 @@
 function HeroImg() {
 
-    const buttonP = document.getElementById('featured');
-    const buttonS = document.getElementById('subscription');
+const scrollToFeatured = () => {
+  const element = document.getElementById('featured');
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
-    const scrollToFeatured = () => {
-      buttonP.scrollIntoView({ behavior: 'smooth' });
-    };
-
-    const scrollToSubscription = () => {
-        buttonS.scrollIntoView({ behavior: 'smooth'})
-    }
+const scrollToSubscription = () => {
+  const element = document.getElementById('subscription');
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
     return (
         <div className="hero__container flex flex-col w-full h-[100vh]">
