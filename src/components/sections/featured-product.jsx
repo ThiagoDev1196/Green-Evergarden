@@ -55,7 +55,7 @@ function FeaturedProducts() {
 
   
     return (
-        <div id="featured" className="products__container pt-5 md:mt-20 p-6 scroll-mt-25 md:scroll-mt-50 lg:md:scroll-mt-45  mx-auto">
+        <div className="products__container pt-5 md:mt-20 p-6 scroll-mt-25 md:scroll-mt-50 lg:md:scroll-mt-45  mx-auto">
             
             <p className="text-3xl border-b-3 p-4 w-max mx-auto md:max-w-[1470px]">Featured products</p>
 

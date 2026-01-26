@@ -12,13 +12,13 @@ function Header() {
 
     <nav className="nav__container flex flex-col bg-emerald-700  text-amber-100  fixed  w-full z-30">
 
-          <div className="nav__image flex flex-row items-center justify-center text-[18px] lg:text-[20px] p-8 xl:hidden">
+          <div className="nav__image flex flex-row items-center justify-center text-[18px] lg:text-[20px] p-6 xl:hidden">
           <img src="./nav-img.webp" alt="Plant web logo" className="w-4 mr-2"/>
           <p>Green Evergarden</p>
           </div>
 
 
-            <button className="xl:hidden absolute text-xl p-8" onClick={toggleMenu} id="menu-open" aria-label="Open navegation menu">☰</button>
+            <button className="xl:hidden absolute text-xl p-6" onClick={toggleMenu} id="menu-open" aria-label="Open navegation menu">☰</button>
 
         <ul className={`nav__ul ${isOpen ? 'flex-col' : 'hidden'} xl:flex xl:flex-row xl:justify-between xl:p-3 lg:text-[18px] lg:text-md xl:text-lg`} id="nav">
 

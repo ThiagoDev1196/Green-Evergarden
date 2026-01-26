@@ -18,12 +18,29 @@ function App() {
     </header>
 
     <main>
-      <HeroImg/>
-      <AboutUs />
-      <FeaturedProducts />
-      <Customers /> 
-      <Incentive/>
-      <Subscription />
+      <section id="home">
+        <HeroImg/>
+      </section>
+
+      <section id="about">
+          <AboutUs />
+      </section>
+      <section id="featured">
+          <FeaturedProducts />
+      </section>
+
+      <section id="customers">
+        <Customers />
+      </section>
+
+      <section>
+        <Incentive/>
+      </section>
+
+      <section id="subscription">
+        <Subscription />
+      </section>
+
     </main>
 
     <footer>
