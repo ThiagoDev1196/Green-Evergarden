@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Header() {
 
@@ -27,11 +28,11 @@ function Header() {
             <p>Green Evergarden</p>
           </div>
 
-          <li className="p-6 pl-4 md:p-8"><a onClick={toggleMenu}  className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" href="#home">Home</a></li>
-          <li className="p-6 pl-4 md:p-8"><a onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" href="#about">About us</a></li>
-          <li className="p-6 pl-4 md:p-8"><a onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" href="#featured">Featured products</a></li>
-          <li className="p-6 pl-4 md:p-8"><a onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" href="#customers">Customers</a></li>
-          <li className="p-6 pl-4 md:p-8"><a onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" href="#subscription">Subscribe</a></li>
+          <li className="p-6 pl-4 md:p-6"><NavHashLink onClick={toggleMenu}  className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" to="/#home">Home</NavHashLink></li>
+          <li className="p-6 pl-4 md:p-6"><NavHashLink onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" to="/#about">About us</NavHashLink></li>
+          <li className="p-6 pl-4 md:p-6"><NavHashLink onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" to="/#featured">Featured products</NavHashLink></li>
+          <li className="p-6 pl-4 md:p-6"><NavHashLink onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" to="/#customers">Customers</NavHashLink></li>
+          <li className="p-6 pl-4 md:p-6"><NavHashLink onClick={toggleMenu} className="lg:hover:text-white lg:px-6 lg:py-2 lg:rounded-3xl" to="/#subscription">Subscribe</NavHashLink></li>
         </ul>     
     </nav>
 
