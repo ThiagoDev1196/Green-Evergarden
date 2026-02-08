@@ -1,11 +1,6 @@
 function HeroImg() {
 
-const scrollToFeatured = () => {
-  const element = document.getElementById('featured');
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
-};
+
 
 const scrollToSubscription = () => {
   const element = document.getElementById('subscription');
@@ -21,9 +16,9 @@ const scrollToSubscription = () => {
             <p className="text-amber-100 z-11 p-5 text-[17px] sm:text-2xl">Inspired by nature, made for you</p>
 
             <div className="mt-2 flex flex-col sm:flex-row gap-4 z-20">
-            <button onClick={scrollToFeatured} className="px-8 py-4 cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg sm:text-sm md:text-lg font-semibold transition-colors">
+            <a href="./Catalog" className="px-8 py-4 flex items-center justify-center cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg sm:text-sm md:text-lg font-semibold transition-colors">
               Explore our products
-            </button>
+            </a>
             <button onClick={scrollToSubscription} className="px-8 cursor-pointer py-4 bg-white/10 hover:bg-white/20 text-white rounded-lg sm:text-sm md:text-lg font-semibold backdrop-blur-sm border-2 border-white/30 transition-colors">
               Subscribe to get a disscount
             </button>
