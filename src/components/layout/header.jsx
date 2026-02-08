@@ -13,17 +13,17 @@ function Header() {
 
     <nav className="nav__container flex flex-col bg-emerald-700  text-amber-100  fixed  w-full z-30">
 
-          <div className="nav__image flex flex-row items-center justify-center text-[18px] lg:text-[20px] p-6 xl:hidden">
+          <div className="nav__image flex flex-row items-center justify-center text-[18px] lg:text-[20px] p-6 md:hidden">
           <img src="./icons/nav-img.png" alt="Plant web logo" className="w-6 mr-2"/>
           <p>Green Evergarden</p>
           </div>
 
 
-            <button className="xl:hidden absolute text-xl p-6" onClick={toggleMenu} id="menu-open" aria-label="Open navegation menu">☰</button>
+            <button className="md:hidden absolute text-xl p-6" onClick={toggleMenu} id="menu-open" aria-label="Open navegation menu">☰</button>
 
-        <ul className={`nav__ul ${isOpen ? 'flex-col' : 'hidden'} xl:flex xl:flex-row xl:justify-between xl:p-3 lg:text-[18px] lg:text-md xl:text-lg`} id="nav">
+        <ul className={`nav__ul ${isOpen ? 'flex-col' : 'hidden'} md:flex md:flex-row md:justify-between md:p-3 md:text-[14px] lg:text-[15px] xl:text-[18px] lg:text-md xl:text-lg`} id="nav">
 
-          <div className="nav__image hidden xl:flex flex-row items-center justify-center md:text-[14px] lg:text-md xl:text-lg">
+          <div className="nav__image hidden md:flex flex-row items-center justify-center md:text-[14px] lg:text-md xl:text-lg">
             <img src="./icons/nav-img.png" alt="Plant web logo" className="w-10 mr-2"/>
             <p>Green Evergarden</p>
           </div>
