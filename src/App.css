@@ -11,7 +11,7 @@ html {
 
 /* Styles for hero img */
 .hero__container {
-    background: url(/public/hero-img.jpg);
+    background: url(/public/section-pics/hero-img.jpg);
     width: 100%;
     background-repeat: no-repeat;
     text-align: center;

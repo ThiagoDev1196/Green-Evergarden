@@ -85,8 +85,8 @@ function FeaturedProducts() {
           <p className="text-md md:text-lg">Didn't find what you were looking for? Explore our <a href="./Catalog" className="underline font-semibold hover:text-emerald-300">full catalog</a> for more options!</p> 
         </div>
 
-        <div className="fullcatalog__img lg:mr-30">
-            <img src="./catalog.png" className="w-20 lg:w-30"/>
+        <div className="fullcatalog__img  lg:mr-30">
+            <img src="./icons/catalog.png" className="w-30 md:w-36 lg:w-40"/>
         </div>
 
       </div>

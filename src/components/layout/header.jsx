@@ -14,7 +14,7 @@ function Header() {
     <nav className="nav__container flex flex-col bg-emerald-700  text-amber-100  fixed  w-full z-30">
 
           <div className="nav__image flex flex-row items-center justify-center text-[18px] lg:text-[20px] p-6 xl:hidden">
-          <img src="./nav-img.webp" alt="Plant web logo" className="w-4 mr-2"/>
+          <img src="./icons/nav-img.png" alt="Plant web logo" className="w-6 mr-2"/>
           <p>Green Evergarden</p>
           </div>
 
@@ -24,7 +24,7 @@ function Header() {
         <ul className={`nav__ul ${isOpen ? 'flex-col' : 'hidden'} xl:flex xl:flex-row xl:justify-between xl:p-3 lg:text-[18px] lg:text-md xl:text-lg`} id="nav">
 
           <div className="nav__image hidden xl:flex flex-row items-center justify-center md:text-[14px] lg:text-md xl:text-lg">
-            <img src="./nav-img.webp" alt="Plant web logo" className="w-4 mr-2"/>
+            <img src="./icons/nav-img.png" alt="Plant web logo" className="w-10 mr-2"/>
             <p>Green Evergarden</p>
           </div>
 

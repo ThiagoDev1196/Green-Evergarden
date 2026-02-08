@@ -14,7 +14,7 @@ function AboutUs () {
         
 
         <div className="about__img hidden md:flex md:flex-[2]">
-            <img src="./about-img.jpg" alt="Beautiful green plant in the dark" className="md:h-[450px] m-auto h-[400px] md:w-full md:object-cover"/>
+            <img src="./section-pics/about-img.jpg" alt="Beautiful green plant in the dark" className="md:h-[450px] m-auto h-[400px] md:w-full md:object-cover"/>
         </div>  
 
   </div>
