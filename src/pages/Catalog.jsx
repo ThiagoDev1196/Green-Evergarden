@@ -27,7 +27,7 @@ function Catalog()  {
 
               </div>
           ))) : (
-            <p>No proudcts were found with "{filterText}"</p>
+            <p className='break-words overflow-hidden'>No proudcts were found with "{filterText}"</p>
             )}
 
           </div>
