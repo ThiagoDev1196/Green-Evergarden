@@ -1,6 +1,6 @@
 function SearchBar ({ onSearch }) {
   return (
-    <div className="w-full max-w-md mx-auto my-8">
+    <div className="w-full max-w-md mx-auto">
       <input
         type="text"
         maxLength={50}

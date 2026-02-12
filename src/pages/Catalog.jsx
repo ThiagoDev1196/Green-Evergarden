@@ -10,8 +10,9 @@ function Catalog()  {
   const filteredProductos = productData.filter((p) => p.name.toLowerCase().includes(filterText.toLowerCase()));
 
     return (
-      //Filtros
         <div className="catalog-container h-full px-2 pt-10 lg:pt-20 lg:px-4 min-h-[80vh] ">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl  pt-20 text-center">Welcome to our catalog</h1>
+          <h2 className='text-center p-4 text-lg sm:text-xl md:text-2xl'>Look for any product</h2>
             <SearchBar onSearch={setFilterText} />
 
           <div className="products__items__container flex flex-wrap justify-center gap-8  pt-10">
