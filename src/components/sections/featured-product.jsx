@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import productData from "../data/products-data";
 
 function FeaturedProducts() {
@@ -62,7 +63,7 @@ function FeaturedProducts() {
             <div className="products__items__container flex flex-wrap justify-center gap-8  pt-10">
         {displayedProducts.map((product) => (
           <div key={product.id} className="product__item flex flex-col items-center p-4 w-[280px] lg:w-[300px] border-2 bg-white border-emerald-600 rounded-lg">
-            <img className="w-[150px] h-[150px]  md:w-[200px] md:h-[200px] p-2 " src={`./${product.picture}`} alt={product.name} />
+            <img className="w-[150px] h-[150px]  md:w-[200px] md:h-[200px] p-2 " src={product.picture} alt={product.name} />
 
             <p className="text-md  lg:text-lg font-semibold">{product.name}</p>
             <p className="text-gray-500">{product.category}</p>
@@ -82,7 +83,7 @@ function FeaturedProducts() {
 
         <div className="fullcatalog__text p-4 space-y-3">
           <p className="text-xl md:text-2xl">We have more products in our catalog</p>
-          <p className="text-md md:text-lg">Didn't find what you were looking for? Explore our <a href="./Catalog" className="underline font-semibold hover:text-emerald-300">full catalog</a> for more options!</p> 
+          <p className="text-md md:text-lg">Didn't find what you were looking for? Explore our <Link to="/catalog" className="underline font-semibold hover:text-emerald-300">full catalog</Link> for more options!</p> 
         </div>
 
         <div className="fullcatalog__img  lg:mr-30">

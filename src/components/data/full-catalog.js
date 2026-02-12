@@ -1,4 +1,4 @@
-const route = '/products-pics/'
+const route = `${import.meta.env.BASE_URL}products-pics/`
 
 const catalog = [
     {
