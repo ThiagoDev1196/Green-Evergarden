@@ -2,8 +2,8 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer'
-import Home from './pages/home'
-import Catalog from './pages/catalog'
+import Home from './pages/Home'
+import Catalog from './pages/Catalog'
 
 function App() {
   return (

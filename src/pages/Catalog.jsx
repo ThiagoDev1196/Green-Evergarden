@@ -11,7 +11,7 @@ function Catalog()  {
 
     return (
       //Filtros
-        <div className="catalog-container h-full px-2 pt-10 lg:pt-20 lg:px-4 ">
+        <div className="catalog-container h-full px-2 pt-10 lg:pt-20 lg:px-4 min-h-[80vh] ">
             <SearchBar onSearch={setFilterText} />
 
           <div className="products__items__container flex flex-wrap justify-center gap-8  pt-10">
